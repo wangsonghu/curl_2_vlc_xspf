@@ -21,6 +21,6 @@ env = Environment(loader=j2_loader)
 j2_tmpl = env.get_template('./list.j2')
 results = j2_tmpl.render(list = list)
 
-with open('list.xspf', mode='a+', encoding='utf-8') as f:
+with open('/out/list.xspf', mode='a+', encoding='utf-8') as f:
     f.truncate(0)
     f.write(results)
