@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>播放列表</title>
+	<trackList>
+{%- for location in list %}
+        <track>
+			<location>{{ location }}</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>{{ list.index(location) }}</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+{%- endfor %}
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+{%- for location in list %}
+		<vlc:item tid="{{ list.index(location) }}"/>
+{%- endfor %}
+	</extension>
+</playlist>

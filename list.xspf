@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>播放列表</title>
+	<trackList>
+        <track>
+			<location>https://web-server.hosts.songhu.wang/study/%5B1.%5D%5Bipv6%5D/1.BV1G7411L72T%28IPV6%E8%AF%A6%E8%A7%A3%20%E7%BA%A2%E8%8C%B6%E4%B8%89%E6%9D%AF-IPv6%E6%A6%82%E8%BF%B0%29-Video.mp4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+        <track>
+			<location>https://web-server.hosts.songhu.wang/study/%5B1.%5D%5Bipv6%5D/2.BV1G7411L72T%28IPV6%E8%AF%A6%E8%A7%A3%20%E7%BA%A2%E8%8C%B6%E4%B8%89%E6%9D%AF-IPv6%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%29-Video.mp4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+        <track>
+			<location>https://web-server.hosts.songhu.wang/study/%5B1.%5D%5Bipv6%5D/3.BV1G7411L72T%28IPV6%E8%AF%A6%E8%A7%A3%20%E7%BA%A2%E8%8C%B6%E4%B8%89%E6%9D%AF-ICMPv6%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8A%EF%BC%89%29-Video.mp4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+        <track>
+			<location>https://web-server.hosts.songhu.wang/study/%5B1.%5D%5Bipv6%5D/4.BV1G7411L72T%28IPV6%E8%AF%A6%E8%A7%A3%20%E7%BA%A2%E8%8C%B6%E4%B8%89%E6%9D%AF-ICMPv6%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%AD%EF%BC%89%E6%97%A0%E7%8A%B6%E6%80%81%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%29-Video.mp4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+        <track>
+			<location>https://web-server.hosts.songhu.wang/study/%5B1.%5D%5Bipv6%5D/5.BV1G7411L72T%28IPV6%E8%AF%A6%E8%A7%A3%20%E7%BA%A2%E8%8C%B6%E4%B8%89%E6%9D%AF-ICMPv6%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8B%EF%BC%89%E4%BB%A5%E5%8F%8ADHCPv6%29-Video.mp4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+	</extension>
+</playlist>
